@@ -95,4 +95,12 @@ public class ServerChat {
         }
     }//end inner class
 
+       
+    public static void main(String[] args) {
+
+        ServerChat server = new ServerChat();
+        server.go();
+
+
+    }
 }
